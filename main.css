@@ -1,34 +1,34 @@
-body{padding: 0; margin: 0; order: 0; overflow-x: hidden; z-index: -2;}
-section{width: 100vw; height: 100vh; overflow-x:hidden;}
-section#profile{background: pink;}
-div.bg{background: url(bg.jpg); background-size: cover; background-repeat: no-repeat;
+body{padding: 0; margin: 0; order: 0; overflow-x: hidden;}
+section{width: 100vw; height: 100vh;}
+section#profile{background: #4065ff;}
+div.bg{background: url(bg.png); background-size: cover; background-repeat: no-repeat;
     filter: blur(16px); -webkit-filter: blur(16px); height: calc(100vh + 64px); width: calc(100vw + 64px); 
-    background-position: center; order: 1; transform: translate(-32px, -32px);
-    z-index: -1; overflow-x:hidden; postion: absolute;}
+    background-position: center; position: absolute; order: 1; transform: translate(-32px, -32px);
+    z-index: -1;}
 img.icon{width: 100%; height: 100%; order:2;}
 div.outer{display: table; position: absolute; top: 0; left: 0; height: 100vh; width: 100vw;
     order:3;}
 div.icon_wrap{display: table-cell; vertical-align: middle;}
 div.icon{margin-left: auto; margin-right: auto; border-style: solid; border-radius: 50%;
-overflow: hidden; border-width: 1vw; border-color: pink;}
+overflow: hidden; border-width: 1vw; border-color: white;}
 div.prof_wrap{text-align: center;}
-div.outer div.text_prof{ color: palevioletred; 
-    background-color: whitesmoke; opacity: 1; font-size: 4vh; border-style: solid; 
-    border-width: 1vh; border-color: whitesmoke; vertical-align: middle; opacity: 1;
+div.outer div.text_prof{ color: #4065ff; font-weight: bold;
+    background-color: white; opacity: 1; font-size: 4vh; border-style: solid; 
+    border-width: 1vh; border-color: white; vertical-align: middle; opacity: 1;
     border-radius: 10vh; vertical-align: middle; min-width: 50vh; display: inline-block;}
 div.application{border-style: solid; border-color: white; vertical-align: middle;
-background: white; width: 80vw; height: 60vh; color: pink; text-align: center; margin: auto;}
+background: white; width: 80vw; height: 60vh; color: #4065ff; text-align: center; margin: auto;}
 div.profile_wrap{text-align: center; display: flex; align-items: center; width: 100vw; 
     height: 100vh;}
-a:link{color: palevioletred; text-decoration: none;}
-a:visited{color: palevioletred; text-decoration: none;}
-a:hover{color: pink; text-decoration: none;}
+a:link{color: #4065ff; text-decoration: none;}
+a:visited{color: #4065ff; text-decoration: none;}
+a:hover{color: #404dff; text-decoration: none;}
 h1{font-size: 5vh; margin-bottom: 3vh; margin-top: 0; border-style: dashed; border-width: 0;
-    border-color: pink; border-bottom-width: 1vh; height: 20%;}
+    border-color: #4065ff; border-bottom-width: 1vh; height: 20%;}
 h2{font-size: 3vh; margin-bottom: 2vh;}
 h3{font-size: 2vh; margin-bottom: 1vh;}
 div.icon_card{float:left; border-style: solid; border-width: 0; width: 35%; height: 100%;
-overflow: hidden; background: url(icon.jpg); background-size: cover; background-repeat: no-repeat;
+overflow: hidden; background: url(icon.png); background-size: cover; background-repeat: no-repeat;
 background-position: center;}
 div.info{text-align: left; height: 100%; width:65%; float:right; padding: 5%; box-sizing: border-box;}
 @media (orientation: landscape) , (min-aspect-ratio: 1/1) {
@@ -41,7 +41,7 @@ div.info{text-align: left; height: 100%; width:65%; float:right; padding: 5%; bo
     div.outer div.text_prof{font-size: 4vw; border-radius: 10vw; min-width: 50vw;}
     div.application{width: 70vw; height: 80vh;}
     div.icon_card{height: 35%; width: 100%; float: inline-start;}
-    div.info{float: inline-end; height: 60%; width:100%; }
+    div.info{float: inline-end; height: 60%; width:95%; }
     h1{font-size: 6vw; margin-bottom: 3vw;}
     h2{font-size: 4vw; margin-bottom: 2vw;}
     h3{font-size: 3vw; margin-bottom: 1vw;}
