@@ -12,7 +12,7 @@ div.outer{display: table; position: absolute; top: 0; left: 0; height: 100vh; wi
 div.icon_wrap{display: table-cell; vertical-align: middle;}
 div.icon{margin-left: auto; margin-right: auto; border-style: solid; border-radius: 50%;
 overflow: hidden; border-width: 1vw; border-color: white;}
-div.prof_wrap{text-align: center;}
+div.prof_wrap{text-align: center; padding-top: 4vh;}
 div.outer div.text_prof{ color: #4065ff; font-weight: bold;
     background-color: white; opacity: 1; font-size: 4vh; border-style: solid; 
     border-width: 1vh; border-color: white; vertical-align: middle; opacity: 1;
