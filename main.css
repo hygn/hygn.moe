@@ -42,7 +42,7 @@ div.info{text-align: left; height: 100%; width:65%; float:right; padding: 5%; bo
     div.outer div.text_prof{font-size: 4vw; border-radius: 10vw; min-width: 50vw;}
     div.application{width: 70vw; height: 80vh;}
     div.icon_card{height: 35%; width: 100%; float: inline-start;}
-    div.info{float: inline-end; height: 60%; width:95%; }
+    div.info{float: inital; height: 60%; width:100%; padding: 5%}
     h1{font-size: 6vw; margin-bottom: 3vw;}
     h2{font-size: 4vw; margin-bottom: 2vw;}
     h3{font-size: 3vw; margin-bottom: 1vw;}
